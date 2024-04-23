@@ -1,0 +1,23 @@
+let Name = prompt("Enter Your Name");
+let surname = prompt("Enter Your Surname");
+let age = prompt("Enter Your Age");
+let town = prompt('Enter Your Hometown');
+let phone = prompt("Enter Your Phone");
+let job = prompt("Enter Your Job");
+let members = prompt("Enter the number of your family members");
+let fatherName = prompt("Enter Your Father's Name");
+let motherName = prompt("Enter Your Mother's Name");
+let moto = prompt("Enter Your Moto");
+
+document.write("Hello, world!!!" + "<br>");
+document.write("<br>");
+document.write("My full name is " + Name.charAt(0).toUpperCase() + Name.slice(1) + " " + surname.charAt(0).toUpperCase() + surname.slice(1) + ". ");
+document.write("And I am a " + age + "-year-old person who is from " + town.charAt(0).toUpperCase() + town.slice(1) +"." + "<br>");
+document.write("My phone number is " + phone + ". You can reach out anytime anytime you want. ");
+document.write("I work as a " + job + " . " + "<br>");
+document.write("My family consists of " + members + " members" +".");
+document.write(" My father's name is " + fatherName.charAt(0).toUpperCase() + fatherName.slice(1) +".");
+document.write(" My mother's name is " + motherName.charAt(0).toUpperCase() + motherName.slice(1) +".");
+document.write(" My moto in life is ' " + moto + " ' !!!"  + "<br>");
+document.write("<br>");
+document.write(" Thank you for your time. " + "<br>");
